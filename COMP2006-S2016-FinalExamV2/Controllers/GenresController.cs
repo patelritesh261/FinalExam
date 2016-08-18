@@ -8,7 +8,13 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using COMP2006_S2016_FinalExamV2.Models;
-
+/**
+ * Authors:  Ritesh Patel
+ * Srudent ID : 200307232
+ * Date : Aug 18 2016
+ * Name: Genres Controller
+ * Description: This controller call list view of genres.
+ */
 namespace COMP2006_S2016_FinalExamV2.Controllers
 {
     public class GenresController : Controller

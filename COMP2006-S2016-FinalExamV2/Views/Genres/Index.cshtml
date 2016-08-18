@@ -3,7 +3,13 @@
 @{
     ViewBag.Title = "Genres List";
 }
-
+@*
+    * Authors:  Ritesh Patel
+    * Srudent ID : 200307232
+    * Date : Aug 18 2016
+    * Name: Genres List view
+    * Description: This view provides list of genres.
+*@
 <h2>Genres List</h2>
 
 <table class="table">
@@ -11,9 +17,7 @@
         <th>
             @Html.DisplayNameFor(model => model.Name)
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Description)
-        </th>
+       
     </tr>
 
 @foreach (var item in Model) {
@@ -21,9 +25,7 @@
         <td>
             @Html.DisplayFor(modelItem => item.Name)
         </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Description)
-        </td>
+       
     </tr>
 }
 
